@@ -1,0 +1,489 @@
+/* Colour palette: https://coolors.co/palette/006d77-83c5be-edf6f9-ffddd2-e29578 */
+
+/* Styling the form on the contact page. */
+#inquiries div {
+    padding: 15px;
+}
+#inquiries {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 200%;
+}
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    z-index: -1;
+}
+#first-name,
+#email,
+#subject,
+#body {
+    margin: 8px 0px;
+}
+form {
+    font-family: Anton;
+}
+input {
+    font-family: "Fira Sans";
+}
+
+/* Styling of common elements across the entire website. */
+body {
+    background-color: #EDF6F9;
+    display: flex;
+    margin: 0 auto;
+    padding: 50px;
+}
+p {
+    font-family: "Fira Sans", Arial;
+    color: #006D77;
+}
+
+h1 {
+    font-family: Anton, Arial;
+    color: #006D77;
+    text-align: center;
+    font-size: 70px;
+}
+h2,
+h3,
+h4 {
+    font-family: "Fira Sans", Arial;
+    color: #006D77;
+}
+
+/* Footer styling. */
+footer {
+    display: flex;
+    background-color: #83C5BE;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    justify-content: space-evenly;
+    font-size: 10px;
+}
+
+/* Image styling. */
+img {
+    width: 25%;
+}
+/* Nav menu styling. */
+#navigation-menu {
+    position: fixed;
+    background-color: #83C5BE;
+    width: 100%;
+    height: 50px;
+    top: 0px;
+    font-family: "Anton", Arial;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#navigation-menu a{
+    color: #FFDDD2;
+    text-decoration: none;
+}
+
+/* Fun facts section on home page styling. */
+#fun-facts {
+    background-color: #FFDDD2;
+    padding: 5%;
+}
+
+/* Button styling on home page. */
+#email-button, 
+#reveal-fun-facts, 
+#hide-fun-facts {
+    padding: 10px 20px;
+    font-family: Anton, Arial;
+    background-color: #006D77;
+    display: block;
+    margin: auto;
+    border: none;
+}
+#email-button a {
+    text-decoration: none;
+    color: #E29578;
+    font-size: 20px;
+}
+
+#email-button a:hover {
+    font-size: 30px;
+    color: #006D77;
+}
+#email-button:hover{
+    background-color: #E29578;
+}
+
+#reveal-fun-facts,
+#hide-fun-facts {
+    color: #E29578;
+    font-size: 40px;
+}
+
+#reveal-fun-facts:hover, 
+#hide-fun-facts:hover {
+    background-color: #E29578;
+    font-size: 50px;
+    color: #006D77;
+}
+
+/* Button styling on contact page. */
+#submit-button {
+    background-color: #E29578;
+    font-size: 30px;
+    color: #006D77;
+    border: none;
+    font-family: Anton, Arial;
+    width: 25%;
+    padding: 10px;
+}
+
+#submit-button:hover {
+    background-color: #E29578;
+    font-size: 40px;
+    color: #006D77;
+}
+/* Hiding fun facts section so that they can appear upon clicking the button. */
+#fun-facts, #hide-fun-facts {
+    display: none;
+}
+
+/* Styling crochet page. */
+#crochet-pieces {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5%;
+    align-content: center;
+}
+figcaption {
+    font-family: "Fira Sans", Arial;
+    font-weight: bold;
+    color: #006D77;
+    background-color: #E29578;
+    width: 25%;
+}
+#granny-squares,
+#socks,
+#bookmark {
+    background-color: #83C5BE;
+}
+
+#crochet-pieces div {
+    padding: 2% 4%;
+}
+
+/* Styling favourite books page. */
+#fav-book-1,
+#fav-book-3,
+#fav-book-5 {
+    background-color:#E29578;
+}
+
+#favourite-books section {
+    padding: 2% 4%;
+}
+
+#favourite-books {
+    margin: 5%;
+}
+
+/* Styling violin page. */
+
+#violin-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5%;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#violin-explanation {
+    text-align: center;
+    padding: 2% 4%;
+}
+
+#violin-music-audio-files {
+    background-color: #006D77;
+    padding: 2% 4%;
+    text-align: center;
+}
+#violin-music-audio-files h3,
+#violin-music-audio-files h4 {
+    color: #FFDDD2;
+}
+
+/* Styling recipes page. */
+#jump-to-recipe,
+#jump-to-recipe a,
+#favourite-recipes-page p a {
+    font-family: Anton, Arial;
+    text-decoration: none;
+    color: #E29578;
+}
+
+#jump-to-recipe button,
+#favourite-recipes-page p button {
+    border: none;
+    background-color: #006D77;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+#peanut-butter-cookies,
+#lemon-blueberry-muffins,
+#mini-oreo-cheesecakes {
+    font-family: "Fira Sans", Arial;
+    color: #006D77;
+}
+
+#favourite-recipes-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5% 5% 15% 5%;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* Buttons on recipe page. */
+#favourite-recipes-page button a:hover {
+    background-color: #E29578;
+    color: #006D77;
+    font-size: 150%;
+}
+
+
+/* Responsive design with media queries. */
+/* Small devices. */
+@media(width <=767.98px) {
+    /* Nav bar. */
+    #navigation-menu {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        margin: auto;
+        font-size: 100%;
+    }
+    /* Body */
+    body {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 20%;
+    }
+
+    p,
+    h2,
+    h3,
+    h4 {
+        font-size: 100%;
+    }
+    /* Body header 1. */
+    body h1 {
+        font-size: 400%;
+    }
+    /* Contact form. */
+    #inquiries{
+        margin: auto;
+        width: auto;
+        font-size: 70%;
+    }
+    #contact-form h1 {
+        padding: 10px;
+    }
+    /* Buttons. */
+    #submit-button {
+        width: auto;
+    }
+    #reveal-fun-facts, 
+    #hide-fun-facts {
+        font-size: 80%;
+        padding: auto;
+    }  
+    #email-button a {
+        font-size: 80%;
+        padding: auto;
+    }
+    
+    #fun-facts {
+        font-size: 50%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    figcaption {
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+    figure {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #crochet-pieces {
+        font-size: 100%;
+    }
+
+    #violin-main {
+        font-size: 100%;
+    }
+
+    #favourite-books {
+        margin-top: 20%;
+    }
+    
+}
+
+/* Medium devices. */
+@media (width >767.98px) and (width <=991.98px) {
+    #navigation-menu {
+        font-size: 100%;
+        flex-wrap: wrap;
+        margin: auto;
+        padding: auto;
+        height: 50px;
+    }
+    
+    body {
+        font-size: 150%;
+    }
+
+    body h1 {
+        font-size: 300%;
+    }
+
+    #inquiries h1 {
+        font-size: 150%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    figure img{
+        display: flex;
+        flex-direction: column;
+    }
+    figcaption {
+        display: block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Large devices. */
+@media (width > 991.98px) and (width <=1199.98px) {
+    #navigation-menu {
+        font-size: 100%;
+        flex-wrap: wrap;
+        margin: auto;
+        padding: auto;
+        height: 50px;
+    }
+    
+    body {
+        font-size: 150%;
+    }
+
+    body h1 {
+        font-size: 300%;
+    }
+
+    #inquiries h1 {
+        font-size: 150%;
+    }
+
+    img {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #favourite-recipes-page button {
+        font-size: 125%;
+        padding: auto;
+    }
+
+    figure img{
+        display: flex;
+        flex-direction: column;
+    }
+    figcaption {
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Extra large devices. */
+@media (width > 1199.98px) {
+    #navigation-menu {
+        font-size: 140%;
+        flex-wrap: wrap;
+        margin: auto;
+        padding: auto;
+        height: 100px;
+    }
+    
+    body {
+        margin-top: 5%;
+        font-size: 150%;
+    }
+
+    body h1 {
+        font-size: 300%;
+    }
+
+    #inquiries h1 {
+        font-size: 200%;
+    }
+
+    img {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #favourite-recipes-page button {
+        font-size: 125%;
+        padding: auto;
+    }
+    figure img{
+        display: flex;
+        flex-direction: column;
+    }
+    figcaption {
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
